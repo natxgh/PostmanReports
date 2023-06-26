@@ -3,7 +3,8 @@
 		"_postman_id": "9c50a1c4-b128-4d84-aa64-84ea151c4a8c",
 		"name": "Restful Booker BVT",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "26436656"
+		"_exporter_id": "26436656",
+		"_collection_link": "https://www.postman.com/winter-star-996152/workspace/postman-01/collection/26436656-9c50a1c4-b128-4d84-aa64-84ea151c4a8c?action=share&creator=26436656&source=collection_link"
 	},
 	"item": [
 		{
@@ -26,7 +27,7 @@
 									"    pm.expect(jsonData).to.not.have.lengthOf(0);",
 									"});",
 									"",
-									"postman.setNextRequest(\"Ping\");"
+									"//postman.setNextRequest(\"Ping\");"
 								],
 								"type": "text/javascript"
 							}
@@ -1135,7 +1136,7 @@
 							"    pm.response.to.have.status(200);",
 							"});",
 							"",
-							"postman.setNextRequest(null);"
+							"//postman.setNextRequest(null);"
 						],
 						"type": "text/javascript"
 					}
